@@ -1,0 +1,51 @@
+
+.container {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    /* background: #000; */
+}
+
+.container div {
+    position: relative;
+}
+
+
+.container img {
+    position: absolute;
+    filter: invert(1);
+    top: 48%;
+    left: 50%;
+    height: 1.4rem;
+    transform: translate(-50%, -50%);
+}
+
+.container svg {
+    position: sticky;
+    transform: rotate(-90deg);
+}
+
+.container .progressBar {
+    stroke: rgb(133, 133, 255);
+    stroke-width: 5px;
+    stroke-linecap: round;
+    /* stroke-dashoffset: 100; */
+    /* stroke-dasharray: 150; */
+    stroke-linejoin: round;
+    fill: transparent;
+
+}
+
+.container svg circle {
+    stroke: var(--secondary-background);
+    stroke-width: 1px;
+    transition: fill 0.4s linear;
+    /* fill: azure; */
+
+}
+
+.container svg circle:hover{
+    fill: rgba(0, 0, 255, 0.2);
+}
+

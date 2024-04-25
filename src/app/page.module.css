@@ -1,11 +1,146 @@
 .main {
+  width: 100%;
+  margin-inline: auto;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  gap: 4rem;
+  
 }
+
+.header {
+  width: 80%;
+  margin-inline: auto;
+
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(89, 91, 122);
+  /* background: #000; */
+}
+.header a {
+  text-decoration: none;
+}
+.sayHello {
+  padding-block: 0.8rem;
+  padding-inline: 1.2rem;
+  border-radius: 1.4rem;
+  border-width: 1px;
+  border-color: blue;
+  color: rgb(63, 63, 249);
+  transition: background .1s, color .1s linear;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.sayHello:hover {
+  background-color: rgb(206, 206, 255);
+}
+
+.blink {
+  animation: blink 0.2s linear infinite alternate-reverse;
+
+}
+
+@keyframes blink {
+  to {
+    opacity: 0;
+  }
+}
+
+
+@media  screen and (max-width: 720px) {
+  .main {
+    gap: 2rem;
+  }
+  .header{
+    width: 90%;
+  }
+  .sayHello {
+    padding-block: 0.6rem;
+      padding-inline: 1rem;
+      border-radius: 1.4rem;
+  }
+}
+
+
+
+
+
+
+
+.footer .wrapper {
+width: 80%;
+  margin-inline: auto;
+  padding-block: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: #000; */
+}
+
+.footer p {
+  font-size: small;
+  text-align: center;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* .card {
+  position: relative;
+  background: #fae9e9;
+  padding: 10px;
+} */
+
+/* .card .cardText {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  
+
+} */
+
+/* .myWorks .card img {
+  height: 10rem;
+  
+  
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .description {
   display: inherit;
@@ -108,6 +243,7 @@
 .logo {
   position: relative;
 }
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -179,11 +315,9 @@
     border-radius: 0;
     border: none;
     border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
-    background: linear-gradient(
-      to bottom,
-      rgba(var(--background-start-rgb), 1),
-      rgba(var(--callout-rgb), 0.5)
-    );
+    background: linear-gradient(to bottom,
+        rgba(var(--background-start-rgb), 1),
+        rgba(var(--callout-rgb), 0.5));
     background-clip: padding-box;
     backdrop-filter: blur(24px);
   }
@@ -194,11 +328,9 @@
     inset: auto 0 0;
     padding: 2rem;
     height: 200px;
-    background: linear-gradient(
-      to bottom,
-      transparent 0%,
-      rgb(var(--background-end-rgb)) 40%
-    );
+    background: linear-gradient(to bottom,
+        transparent 0%,
+        rgb(var(--background-end-rgb)) 40%);
     z-index: 1;
   }
 }
@@ -224,6 +356,7 @@
   from {
     transform: rotate(360deg);
   }
+
   to {
     transform: rotate(0deg);
   }

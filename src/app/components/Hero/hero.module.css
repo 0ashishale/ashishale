@@ -1,0 +1,125 @@
+/* hero section */
+.hero {
+    width: 80%;
+    padding-bottom: 4rem;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    /* background: #000; */
+
+}
+
+.hero h1 {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 2.2rem;
+    color: aquamarine;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 2.8rem;
+
+}
+
+.wrapper {
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    width: 90%;
+    /* background: #000; */
+    justify-content: space-between;
+}
+
+.wrapper img {
+    width: 18rem;
+
+}
+
+.nameSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-block: 2rem;
+    gap: 2rem;
+    /* background: #966868; */
+
+
+
+}
+
+.nameSection h2 {
+    font-weight: 500;
+    letter-spacing: 0.02rem;
+    line-height: 30px;
+}
+
+.nameSection h3 {
+    font-weight: 400;
+    letter-spacing: 0.04rem;
+
+
+}
+
+.nameSection button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-block: 0.8rem;
+    padding-inline: 1.8rem;
+    border-radius: 0.4rem;
+    border-width: 1px;
+    border-color: #0071ff33;
+    cursor: pointer;
+    font-weight: 500;
+    width: 100%;
+    color: var(--color-primary);
+    transition: 0.6s;
+    background: transparent;
+}
+
+
+
+.nameSection button:hover {
+    background: rgba(10, 128, 16, 0.075);
+}
+
+
+
+@media screen and (max-width:720px) {
+    .hero {
+        width: 90%;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+
+    }
+
+    .wrapper {
+        flex-direction: column;
+        width: 99%;
+    }
+
+    .nameSection {
+        padding-bottom: 0rem;
+    }
+
+    .wrapper h2 {
+        font-size: 1rem;
+    }
+
+    .wrapper h3 {
+        font-size: 0.8rem;
+    }
+
+    .wrapper button {
+        width: 100%;
+        padding-block: 0.6rem;
+        padding-inline: 1rem;
+    }
+
+    .wrapper img {
+        height: 20%;
+        margin-inline: auto;
+    }
+}

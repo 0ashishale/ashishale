@@ -1,0 +1,57 @@
+.connectWithMe {
+    width: 80%;
+    margin-inline: auto;
+    padding-top: 4rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: #000; */
+}
+
+.connectWithMe h1 {}
+
+.connectWithMe p {
+    line-height: 40px;
+}
+
+.connectWithMe a {
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.connectWithMe h3 {}
+
+.connectWithMe a {}
+
+.connectWithMe img {
+
+    height: 3rem;
+    margin-left: 0.6rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.3s linear;
+    position: relative;
+}
+
+.connectWithMe a:last-child img {
+    padding: 6px;
+}
+
+.connectWithMe img:hover {
+    background: var(--secondary-background);
+    /* animation: rotate 0.5s ease-in-out 0.2s alternate; */
+
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg)
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
