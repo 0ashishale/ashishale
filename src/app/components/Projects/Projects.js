@@ -1,6 +1,6 @@
-import React from 'react'
-import ProjectCard from './ProjectCard';
-import styles from './project.module.css'
+import React from "react";
+import ProjectCard from "./ProjectCard";
+import styles from "./project.module.css";
 
 const Projects = () => {
   return (
@@ -29,12 +29,12 @@ const Projects = () => {
         <ProjectCard
           title={`Neat Dental Care`}
           url={`https://www.neatdentalcare.com.np`}
-          imgUrl={`/images/neatDental.jpg`}
+          imgUrl={`/images/neatDental.JPG`}
         />
         <ProjectCard
           title={`SAATHisoft`}
           url={`https://saathisoft.vercel.app/`}
-          imgUrl={`/images/saathisoft.jpg`}
+          imgUrl={`/images/saathisoft.JPG`}
         />
         <ProjectCard
           title={`Aiwa Education Consultancy`}
@@ -49,6 +49,6 @@ const Projects = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Projects
+export default Projects;
