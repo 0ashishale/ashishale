@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './hero.module.css'
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -19,8 +20,7 @@ const Hero = () => {
             <button>About me</button>
           </a>
         </div>
-
-        <img src="/images/hero.png" alt="heroImage" />
+<Image src='/images/hero.png' alt='2AM' height={300} width={400}/>
       </div>
     </section>
   );

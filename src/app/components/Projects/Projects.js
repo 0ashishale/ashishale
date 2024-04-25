@@ -39,13 +39,13 @@ const Projects = () => {
         <ProjectCard
           title={`Aiwa Education Consultancy`}
           url={`https://aiwa.edu.np/`}
-          imgUrl={`/images/aiwa.png`}
+          imgUrl={`/logos/aiwa.png`}
         />
-        <ProjectCard
+        {/* <ProjectCard
           title={`E-Market`}
           url={`https://aiwa.edu.np/`}
           imgUrl={`/images/saathisoft.jpg`}
-        />
+        /> */}
       </div>
     </section>
   );

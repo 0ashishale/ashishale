@@ -1,9 +1,14 @@
 import React from 'react'
 import styles from './ProjectCard.module.css'
+import Image from 'next/image';
 const ProjectCard = ({title, url, imgUrl}) => {
   return (
     <div className={styles.card}>
-      <img src={imgUrl} alt={title} />
+      <Image  src={imgUrl} alt={title}
+        width={500}
+        height={200}
+      
+      />
       <div className={styles.cardContent}>
         <h2>{title}</h2>
         <button className={styles.cardBtn}>

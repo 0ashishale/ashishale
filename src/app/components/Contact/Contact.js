@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './contact.module.css'
+import Image from 'next/image';
 export const Contact = () => {
   return (
     <section id="contact" className={styles.connectWithMe}>
@@ -21,19 +22,41 @@ export const Contact = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <img src="/logos/linkedIn.png" alt="linkedin" />
+            <Image
+              src="/logos/linkedIn.png"
+              alt="LinkedIn"
+              height={50}
+              width={50}
+            />
           </a>
           <a
             href="https://www.instagram.com/ale_magar_ashish/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src="/logos/instagram.png" alt="instagram" />
+            <Image
+              src="/logos/instagram.png"
+              alt="Instagram"
+              height={50}
+              width={50}
+            />
+
+            {/* <img src="/logos/instagram.png" alt="instagram" /> */}
           </a>
-          <a href="https://wa.me/9779815138271" target="_blank" rel="noreferrer noopener">
-            <img src="/logos/whatapps.png" alt="whatapps" />
+          <a
+            href="https://wa.me/9779815138271"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <Image
+              src="/logos/whatapps.png"
+              alt="Whatapp"
+              height={50}
+              width={48}
+            />
+
+            {/* <img src="/logos/whatapps.png" alt="whatapps" /> */}
           </a>
-          {/* <img src="/images/facebook.png" alt="" /> */}
         </div>
       </div>
     </section>

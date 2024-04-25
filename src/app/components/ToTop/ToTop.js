@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import styles from "./totop.module.css";
+import Image from "next/image";
 const ToTop = () => {
   const [progress, setProgress] = useState(100);
 
@@ -30,7 +31,8 @@ const ToTop = () => {
     <>
       <div className={styles.container} onClick={scrollToTop}>
         <div>
-          <img src="/icons/up.png" alt="" />
+          <Image src='/icons/up.png' alt="Top" height={20} width={20}/>
+          {/* <img src="/icons/up.png" alt="" /> */}
           <svg
             width="49"
             height="49"

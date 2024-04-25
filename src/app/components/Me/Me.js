@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './me.module.css'
+import Image from "next/image";
 const Me = () => {
   return (
     <div style={{ overflow: "hidden" }}>
@@ -21,7 +22,13 @@ const Me = () => {
         <div className={styles.wrapper}>
           <div className={styles.container}>
             <span>
-              <img src="/icons/design.png" alt="" />
+              <Image
+                src="/icons/design.png"
+                alt="Design"
+                height={30}
+                width={30}
+              />
+              {/* <img src="/icons/design.png" alt="" /> */}
             </span>
             <h1>Designer</h1>
             <div className={styles.content}>
@@ -44,7 +51,14 @@ const Me = () => {
           </div>
           <div className={styles.container}>
             <span>
-              <img src="/icons/frontend.png" alt="" />
+              <Image
+                src="/icons/frontend.png"
+                alt="frontend"
+                height={30}
+                width={30}
+              />
+
+              {/* <img src="/icons/frontend.png" alt="" /> */}
             </span>
             <h1>Frontend Developer</h1>
             <div className={styles.content}>
@@ -72,7 +86,14 @@ const Me = () => {
           </div>
           <div className={styles.container}>
             <span>
-              <img src="/icons/backend.png" alt="" />
+              <Image
+                src="/icons/backend.png"
+                alt="Backend"
+                height={50}
+                width={50}
+              />
+
+              {/* <img src="/icons/backend.png" alt="" /> */}
             </span>
             <h1>Backend Developer</h1>
             <div className={styles.content}>

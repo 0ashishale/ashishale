@@ -63,6 +63,9 @@
   .header{
     width: 90%;
   }
+  .header a span {
+    color: var(--color-primary);
+  }
   .sayHello {
     padding-block: 0.6rem;
       padding-inline: 1rem;

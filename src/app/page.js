@@ -5,13 +5,17 @@ import Colabration from "./components/Colabration/Colabration";
 import { Contact } from "./components/Contact/Contact";
 import styles from "./page.module.css";
 import ToTop from "./components/ToTop/ToTop";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       {/* header */}
       <header className={styles.header}>
-        <span>2AM</span>
+        <a href="#">
+          <Image src="/logo.png" width={70} height={30} />
+        </a>
+        {/* <Image src='/2AM.png' height={20} width={40}/> */}
         <a href="#contact">
           <button className={styles.sayHello}>
             Say Hello <span className={styles.blink}>_</span>
@@ -24,11 +28,13 @@ export default function Home() {
       <Projects />
       <Colabration />
       <Contact />
-      <ToTop/>
+      <ToTop />
       {/* footer */}
       <section className={styles.footer}>
         <div className={styles.wrapper}>
-          <h1>2AM</h1>
+          <a href="#">
+            <Image src="/logo.png" width={70} height={30} />
+          </a>
         </div>
         <p> &copy; 2024 Ashish Ale Magar. All rights reserved.</p>
       </section>
