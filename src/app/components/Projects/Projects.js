@@ -7,7 +7,7 @@ const Projects = () => {
     <section className={styles.myWorks}>
       <div className={styles.workHeading}>
         <h1>My Recent Works</h1>
-        <p>Here are few projects I've worked on.</p>
+        <p>Here are few projects I&apos;ve worked on.</p>
         <div className="links">
           <a
             href="https://github.com/0ashishale"

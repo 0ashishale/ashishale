@@ -7,7 +7,7 @@ const Me = () => {
       <section className={styles.introduction} id="me">
         <div>
           <div className={styles.me}>
-            <h1>"Me"</h1>
+            <h1>&quot;Me&quot;</h1>
             <p>
               I am a passionate MERN stack developer with over a year of
               experience creating dynamic and responsive web and mobile

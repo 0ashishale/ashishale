@@ -6,7 +6,7 @@ export const Contact = () => {
     <section id="contact" className={styles.connectWithMe}>
       <div>
         <h1>Connect With Me</h1>
-        <p>Let's make it together. </p>
+        <p>Let&apos;s make it together. </p>
       </div>
       <div>
         <div className="links">
