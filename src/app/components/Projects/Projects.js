@@ -36,11 +36,11 @@ const Projects = () => {
           url={`https://saathisoft.vercel.app/`}
           imgUrl={`/images/saathisoft.JPG`}
         />
-        <ProjectCard
+        {/* <ProjectCard
           title={`Aiwa Education Consultancy`}
           url={`https://aiwa.edu.np/`}
           imgUrl={`/logos/aiwa.png`}
-        />
+        /> */}
         {/* <ProjectCard
           title={`E-Market`}
           url={`https://aiwa.edu.np/`}
