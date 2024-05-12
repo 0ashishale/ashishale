@@ -17,23 +17,22 @@
 }
 
 .connectWithMe a {
-    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .connectWithMe h3 {}
 
-.connectWithMe a {}
+
 
 .connectWithMe img {
-
-    height: 3rem;
+    height: auto;
+    width: auto;
     margin-left: 0.6rem;
     cursor: pointer;
     border-radius: 50%;
     transition: background 0.3s linear;
-    position: relative;
+    
 }
 
 .connectWithMe a:last-child img {

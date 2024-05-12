@@ -20,7 +20,13 @@ const Hero = () => {
             <button>About me</button>
           </a>
         </div>
-<Image src='/images/hero.png' alt='2AM' height={300} width={400}/>
+        {/* <Image src='/images/hero.png' alt='2AM' height={300} width={400}/> */}
+      </div>
+
+      <div className={styles.ocean}>
+        <div className={styles.wave}></div>
+        <div className={styles.wave}></div>
+        <div className={styles.wave}></div>
       </div>
     </section>
   );

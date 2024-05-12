@@ -80,6 +80,7 @@
 
  .container img {
      height: 1.8rem;
+     width: auto;
      filter: invert();
  }
 

@@ -45,8 +45,9 @@ const ToTop = () => {
               cx="24.5"
               cy="24.5"
               r="14"
-              stroke-dasharray="100"
-              stroke-dashoffset={progress}
+              // stroke-dasharray="100"
+              // stroke-dashoffset={progress}
+              style={{strokeDasharray:100, strokeDashoffset: progress}}
             />
             <circle cx="24.5" cy="24.5" r="14" />
           </svg>

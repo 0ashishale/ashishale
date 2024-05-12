@@ -4,7 +4,7 @@ import Projects from "./components/Projects/Projects";
 import Colabration from "./components/Colabration/Colabration";
 import { Contact } from "./components/Contact/Contact";
 import styles from "./page.module.css";
-import ToTop from "./components/Projects/ToTop/ToTop";
+import ToTop from "./components/ToTop/ToTop";
 import Image from "next/image";
 
 export default function Home() {

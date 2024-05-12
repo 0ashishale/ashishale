@@ -35,11 +35,8 @@ text-align: center;
 }
 
 .companies img {
-    height: 4rem;
-  
-    
-
-
+    height: auto;
+    width: auto;
 }
 
 @media screen and (max-width:720px) {
