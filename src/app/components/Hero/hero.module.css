@@ -1,16 +1,27 @@
 /* hero section */
 .hero {
-    width: 80%;
+    width: 100%;
+    position: relative;
     padding-bottom: 4rem;
     margin-inline: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height: 50vh;
-    position: relative;
+    height: 80vh;
 
     /* background: #000; */
+
+}
+
+.hero .content{
+    width: 80%;
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
 
 }
 
@@ -49,11 +60,7 @@
 
 }
 
-.nameSection h2 {
-    font-weight: 500;
-    letter-spacing: 0.02rem;
-    line-height: 30px;
-}
+
 
 .nameSection h3 {
     font-weight: 400;
@@ -62,7 +69,7 @@
 
 }
 
-.nameSection button {
+.hero button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-block: 0.8rem;
     padding-inline: 1.8rem;
@@ -78,10 +85,15 @@
 }
 
 
-.nameSection button:hover {
+.hero button:hover {
     background: rgba(10, 128, 16, 0.8);
 }
 
+@media screen and (min-width: 1920px) {
+    .hero{
+        height: 40vh;
+    }
+}
 
 
 @media screen and (max-width:720px) {
@@ -124,8 +136,8 @@
 
 
 .ocean {
+    margin-inline: auto;
     height: 80px;
-    /* change the height of the waves here */
     width: 100%;
     position: absolute;
     bottom: 0;

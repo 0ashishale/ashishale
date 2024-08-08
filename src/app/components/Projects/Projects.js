@@ -29,7 +29,7 @@ const Projects = () => {
         <ProjectCard
           title={`Neat Dental Care`}
           url={`https://www.neatdentalcare.com.np`}
-          imgUrl={`/images/neatDental.JPG`}
+          imgUrl={`/images/neat-dental.png`}
         />
         <ProjectCard
           title={`SAATHisoft`}

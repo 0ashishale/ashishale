@@ -46,10 +46,8 @@
      display: flex;
      justify-content: center;
      border-radius: 1.2rem 1.2rem 0px 0px;
-     background: var(--main-background);
+     background: linear-gradient(to bottom, var(--main-background) 0%, var(--main-background) 40%, rgba(0,0,0,0) 100%) ;
      overflow: hidden;
-     border-left: 1px solid rgba(129, 123, 123, 0.5);
-     border-right: 1px solid rgba(129, 123, 123, 0.5);
      border-top: 1px solid rgba(129, 123, 123, 0.5);
  }
 

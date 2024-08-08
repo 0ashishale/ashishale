@@ -32,6 +32,7 @@ text-align: center;
     flex-wrap: wrap;
     gap: 4rem;
     justify-content: space-around;
+    margin-block: 2rem;
 }
 
 .companies img {

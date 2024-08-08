@@ -4,14 +4,13 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 4rem;
+ 
   
 }
 
 .header {
   width: 80%;
   margin-inline: auto;
-
   padding-top: 4rem;
   padding-bottom: 1rem;
   display: flex;

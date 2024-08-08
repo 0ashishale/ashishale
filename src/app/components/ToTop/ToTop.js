@@ -16,9 +16,10 @@ const ToTop = () => {
       const docHeight = document.documentElement.scrollHeight;
 
       const totalDocScrollLength = docHeight - windowHeight;
-      const scrolled =100- (scrollTop / totalDocScrollLength) * 100;
+      const scrolled =(scrollTop / totalDocScrollLength) * 100;
 
       setProgress(scrolled);
+      
     };
 
     window.addEventListener("scroll", updateScrollProgress);
@@ -34,8 +35,8 @@ const ToTop = () => {
           <Image src='/icons/up.png' alt="Top" height={20} width={20}/>
           {/* <img src="/icons/up.png" alt="" /> */}
           <svg
-            width="49"
-            height="49"
+            width="50"
+            height="50"
             viewBox="0 0 50 50"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
