@@ -6,13 +6,11 @@ const Hero = () => {
   return (
     <section className={styles.hero}>
       <div className={styles.content}>
-        <h1>Hi, It's me Ashish Ale Magar</h1>
+        <h1>Hi, It&apos;s me Ashish Ale Magar</h1>
 
-        <p>
-          MERN Stack Developer & UI/UX Designer
-        </p>
+        <p>MERN Stack Developer & UI/UX Designer</p>
 
-        <a href='#me'>
+        <a href="#me">
           <button>About me</button>
         </a>
       </div>
