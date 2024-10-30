@@ -8,13 +8,16 @@
     /* background: #000; */
 
 }
+
 .honored h1 {
     text-align: center;
 }
+
 .honored p {
 text-align: center;
 
 }
+
 .honoredHeading {
     text-align: center;
     display: flex;
@@ -22,6 +25,7 @@ text-align: center;
     gap: 1rem;
 
 }
+
 .honoredHeading p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -30,14 +34,19 @@ text-align: center;
 .companies {
     display: flex;
     flex-wrap: wrap;
-    gap: 4rem;
     justify-content: space-around;
     margin-block: 2rem;
+    gap: 2rem;
+}
+.companies a {
+    margin: 0.5rem;
 }
 
 .companies img {
     height: auto;
+    min-height: 80px;
     width: auto;
+    
 }
 
 @media screen and (max-width:720px) {

@@ -10,6 +10,7 @@ const Colabration = () => {
       </div>
 
       <div className={styles.companies}>
+    
         <a
           href="https://www.neatdentalcare.com.np"
           target="_blank"

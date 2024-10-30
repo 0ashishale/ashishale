@@ -5,7 +5,7 @@ const Me = () => {
   return (
     <div style={{ overflow: "hidden" }}>
       <section className={styles.introduction} id="me">
-        <div>
+      
           <div className={styles.me}>
             <h1>&quot;Me&quot;</h1>
             <p>
@@ -16,20 +16,19 @@ const Me = () => {
               software that is both user-friendly and secure.
             </p>
           </div>
-        </div>
+     
       </section>
       <section className={styles.background}>
         <div className={styles.wrapper}>
           <div className={styles.container}>
-            <span>
+          
               <Image
                 src="/icons/design.png"
                 alt="Design"
                 height={30}
                 width={30}
               />
-              {/* <img src="/icons/design.png" alt="" /> */}
-            </span>
+            
             <h1>Designer</h1>
             <div className={styles.content}>
               <p className={styles.thoughts}>
@@ -50,7 +49,6 @@ const Me = () => {
             </div>
           </div>
           <div className={styles.container}>
-            <span>
               <Image
                 src="/icons/frontend.png"
                 alt="frontend"
@@ -58,8 +56,6 @@ const Me = () => {
                 width={30}
               />
 
-              {/* <img src="/icons/frontend.png" alt="" /> */}
-            </span>
             <h1>Frontend Developer</h1>
             <div className={styles.content}>
               <p className={styles.thoughts}>
@@ -85,7 +81,6 @@ const Me = () => {
             </div>
           </div>
           <div className={styles.container}>
-            <span>
               <Image
                 src="/icons/backend.png"
                 alt="Backend"
@@ -93,8 +88,6 @@ const Me = () => {
                 width={50}
               />
 
-              {/* <img src="/icons/backend.png" alt="" /> */}
-            </span>
             <h1>Backend Developer</h1>
             <div className={styles.content}>
               <p className={styles.thoughts}>
