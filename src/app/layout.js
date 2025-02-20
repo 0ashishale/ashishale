@@ -3,7 +3,7 @@ import "./globals.css";
 
 const inter = Roboto_Serif({
   subsets: ["latin"],
-  weight: ['100', '300', '400', '500', '700'],
+  weight: ["100", "300", "400", "500", "700"],
 });
 
 export const metadata = {
@@ -16,10 +16,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         <meta
           name="keywords"
           content="fullstack developer, mern stack developer, ui/ux designer, ashish ale magar, 2AM"
         />
+
+        <link rel="icon" type="image/x-icon" href="/logo.png" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

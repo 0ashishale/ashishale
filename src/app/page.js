@@ -13,7 +13,7 @@ export default function Home() {
       {/* header */}
       <header className={styles.header}>
         <a href="#">
-          <Image src="/logo.png" alt="2AM" width={70} height={30} />
+          <Image src="/logo.png" alt="2AM" width={70} height={42} />
         </a>
         {/* <Image src='/2AM.png' height={20} width={40}/> */}
         <a href="#contact">
@@ -33,7 +33,7 @@ export default function Home() {
       <section className={styles.footer}>
         <div className={styles.wrapper}>
           <a href="#">
-            <Image src="/logo.png" alt="2AM" width={70} height={30} />
+            <Image src="/logo.png" alt="2AM" width={70} height={42} />
           </a>
         </div>
         <p> &copy; 2024 Ashish Ale Magar. All rights reserved.</p>
