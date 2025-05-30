@@ -78,11 +78,14 @@
 
 
 
-
+.footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+}
 .footer .wrapper {
 width: 80%;
   margin-inline: auto;
-  padding-block: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -97,6 +100,7 @@ width: 80%;
   font-weight: 300;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding-bottom: 1rem;
+  margin-top: 2rem;
 }
 /* .card {
   position: relative;

@@ -19,10 +19,10 @@ export default function RootLayout({ children }) {
 
         <meta
           name="keywords"
-          content="fullstack developer, mern stack developer, ui/ux designer, ashish ale magar, 2AM"
+          content="Passionate Full-Stack developer, ui/ux designer, ashish ale magar"
         />
 
-        <link rel="icon" type="image/x-icon" href="/logo.png" />
+        <link rel="icon" type="image/x-icon" href="/logo.svg" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

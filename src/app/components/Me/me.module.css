@@ -8,7 +8,7 @@
 .introduction div {
     width: 80%;
     margin-inline: auto;
-    padding-block: 2rem;
+    padding-block: 4rem;
     /* background: #b15454; */
 }
 
@@ -36,7 +36,7 @@
      border-radius: 10px;
      width: 80%;
      margin-inline: auto;
-     margin-top: -14rem;
+     margin-top: -10rem;
      overflow: hidden;
  }
 

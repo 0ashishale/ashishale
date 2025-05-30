@@ -6,16 +6,15 @@ import { Contact } from "./components/Contact/Contact";
 import styles from "./page.module.css";
 import ToTop from "./components/ToTop/ToTop";
 import Image from "next/image";
+import Logo from "./components/ui/Logo";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       {/* header */}
       <header className={styles.header}>
-        <a href="#">
-          <Image src="/logo.png" alt="2AM" width={70} height={42} />
-        </a>
-        {/* <Image src='/2AM.png' height={20} width={40}/> */}
+        <Logo />
+
         <a href="#contact">
           <button className={styles.sayHello}>
             Say Hello <span className={styles.blink}>_</span>
@@ -31,12 +30,11 @@ export default function Home() {
       <ToTop />
       {/* footer */}
       <section className={styles.footer}>
+        {/* <Contact /> */}
         <div className={styles.wrapper}>
-          <a href="#">
-            <Image src="/logo.png" alt="2AM" width={70} height={42} />
-          </a>
+          <Logo />
+          <p> &copy; 2024 Ashish Ale Magar. All rights reserved.</p>
         </div>
-        <p> &copy; 2024 Ashish Ale Magar. All rights reserved.</p>
       </section>
     </main>
   );

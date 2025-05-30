@@ -14,10 +14,10 @@
 
 }
 
-.hero .content{
+.hero .content {
     width: 80%;
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 2rem;
@@ -36,65 +36,107 @@
 }
 
 .hero p {
-    text-align: center ;
+    text-align: center;
 }
 
-.wrapper {
-    position: relative;
+.hero .available {
     display: flex;
-    gap: 2rem;
+    align-items: center;
+    gap: 0.5rem;
+    border: 1px solid green;
+    padding: 0.6rem;
+    border-radius: 0.6rem;
+}
+
+.hero .available>span {
+    background-color: green;
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    display: inline-block;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.hero .title {
+    letter-spacing: 0.5rem;
+    font-weight: 300;
+    margin-top: 0.2rem;
+}
+
+.hero .heroText {
+    max-width: 100ch;
+    line-height: 1.4rem;
+}
+
+.hero .ctaSection {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 }
 
-.wrapper img {
-    width: 18rem;
-
-}
-
-.nameSection {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-bottom: 5rem;
-    gap: 2rem;
-    /* background: #966868; */
-
-
-
+.hero .ctaSection a {
+    text-wrap: nowrap;
 }
 
 
 
-.nameSection h3 {
-    font-weight: 400;
-    letter-spacing: 0.04rem;
-
-
-}
-
-.hero button {
+.hero .ctaSection .cvAnchor,
+.hero .ctaSection .aboutAnchor {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-block: 0.8rem;
     padding-inline: 1.8rem;
     border-radius: 0.4rem;
-    border-width: 1px;
-    border-color: #0071ff33;
+    border: 1px solid #0071ff33;
     cursor: pointer;
     font-weight: 500;
     width: 100%;
-    color: var(--color-primary);
     transition: 0.6s;
+    color: white;
+        text-decoration: none;
+
+}
+
+.hero .ctaSection .cvAnchor {
+    font-size: 1rem !important;
+    background: rgba(1, 162, 1, 0.43);
+    text-wrap: nowrap;
+    box-shadow: #2198036d 0px 0px 5px;
+}
+
+.hero .ctaSection .cvAnchor:hover {
+    background: rgba(1, 162, 1, 0.778);
+
+}
+
+.hero .ctaSection .aboutAnchor {
     background: transparent;
 }
 
 
-.hero button:hover {
-    background: rgba(10, 128, 16, 0.8);
+.hero .ctaSection .aboutAnchor:hover {
+    background: rgba(10, 57, 128, 0.4);
 }
 
+
+
 @media screen and (min-width: 1920px) {
-    .hero{
+    .hero {
         height: 40vh;
     }
 }
@@ -111,31 +153,8 @@
 
     }
 
-    .wrapper {
-        flex-direction: column;
-        width: 99%;
-    }
 
- 
 
-    .wrapper h2 {
-        font-size: 1rem;
-    }
-
-    .wrapper h3 {
-        font-size: 0.8rem;
-    }
-
-    .wrapper button {
-        width: 100%;
-        padding-block: 0.6rem;
-        padding-inline: 1rem;
-    }
-
-    .wrapper img {
-        height: 20%;
-        margin-inline: auto;
-    }
 }
 
 
@@ -143,7 +162,7 @@
     margin-inline: auto;
     height: 80px;
     width: 100%;
-    scale: 1.5;
+    scale: 1;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -179,11 +198,19 @@
         transform: translateX(0);
     }
 
+    25% {
+        transform: translateX(-5%);
+    }
+
     50% {
-        transform: translateX(-25%);
+        transform: translateX(-10%);
+    }
+
+    75% {
+        transform: translateX(-5%);
     }
 
     100% {
-        transform: translateX(-50%);
+        transform: translateX(0);
     }
 }

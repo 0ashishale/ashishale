@@ -29,7 +29,9 @@ export const Contact = () => {
               width={50}
             />
           </a>
-          <a
+
+          
+          {/* <a
             href="https://www.instagram.com/ale_magar_ashish/"
             target="_blank"
             rel="noopener noreferrer"
@@ -41,7 +43,6 @@ export const Contact = () => {
               width={50}
             />
 
-            {/* <img src="/logos/instagram.png" alt="instagram" /> */}
           </a>
           <a
             href="https://wa.me/9779815138271"
@@ -55,8 +56,7 @@ export const Contact = () => {
               width={48}
             />
 
-            {/* <img src="/logos/whatapps.png" alt="whatapps" /> */}
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
