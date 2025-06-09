@@ -1,24 +1,32 @@
-# Ashish Ale Magar - Portfolio Website
+# 🚀 Ashish Ale Magar – Developer Portfolio
 
-Welcome to my personal portfolio website built using Next.js!
+This is my personal portfolio website built using **Next.js** and **Tailwind CSS** to showcase my work, projects, and technical skills as a Full Stack Developer based in Pokhara, Nepal.
 
-## Introduction
+## 🌐 Live Website
+**https://ashishale.com.np**
 
-I am Ashish Ale Magar, a passionate full-stack developer(MERN) and UI/UX designer passionate about creating innovative and user-friendly web experiences.
+## 🧰 Tech Stack
 
-## Technologies Used
+- **Framework**: Next.js (React-based)
+- **Styling**: Tailwind CSS
+- **Animation**: Framer Motion
+- **Deployment**: Vercel
 
-- Next.js
-- HTML5/CSS3
-- JavaScript (ES6+)
+## ✨ Features
 
-## Features
+- Fully responsive design across all devices
+- Smooth animations using Framer Motion
+- Projects section highlighting real work
+- Contact section with social links and email
+- Clean, minimal design with fast performance
 
-- Responsive design for seamless experience across devices.
-- Showcase of my projects, skills, and experience.
-- Contact form for inquiries and collaborations.
-- Blog section to share my insights and experiences.
-- Integration with third-party APIs for additional functionality.
+## 🧠 Functionality Explained
+
+- **Routing**: Built-in routing with Next.js `pages/` directory
+- **Responsive Design**: Mobile-first layout using Tailwind CSS utility classes
+- **Animations**: Section transitions and fade-ins powered by Framer Motion
+- **Accessibility**: Semantic HTML with focus states and keyboard navigation
+- **SEO Optimized**: Meta tags set up with `next/head`
 
 ## Feedback
 
